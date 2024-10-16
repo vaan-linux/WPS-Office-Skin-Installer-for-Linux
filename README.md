@@ -1,1 +1,1 @@
-# WPS-Office-Skin-Installer-for-Linux
+# WPS Office Skin Installer for Linux
