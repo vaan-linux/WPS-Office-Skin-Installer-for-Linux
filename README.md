@@ -1,3 +1,3 @@
 # WPS Office Skin Installer for Linux
-by Vaan
+by Vaan \n
 Github : https://github.com/vaan-linux
