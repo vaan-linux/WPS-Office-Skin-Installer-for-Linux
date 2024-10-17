@@ -44,3 +44,27 @@ sudo chmod +x setup.sh
 ./setup.sh
 ```
 ### Make sure Comfort skin choosed on WPS Office Skin Center
+![skincenter](images/skin-center.jpg)
+
+### Setup
+Select the desired skin and ensure the distribution matches
+![setup](images/setup.jpg)
+Then, restart or reopen your WPS Office
+
+## Preview
+**Nord**
+![nord](images/nord.jpg)
+
+**Catppuccin**
+![catppuccin](images/catppuccin.jpg)
+
+**Dark**
+![dark](images/dark.jpg)
+
+**Everforest**
+![everforest](images/everforest.jpg)
+
+**Gruvbox**
+![gruvbox](images/gruvbox.jpg)
+
+[GPL3](https://www.gnu.org/licenses/gpl-3.0-standalone.html)
