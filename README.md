@@ -32,7 +32,7 @@ sudo dnf install git
 
 ### Clone the GitHub Repository
 ```bash
-git clone https://github.com/vaan-linux/WPS-Office-Skin-Installer-for-Linux.git
+git clone https://github.com/vaan-linux/WPS-Office-Skin-Installer-for-Linux
 ```
 ```bash
 cd WPS-Office-Skin-Installer-for-Linux
@@ -43,3 +43,4 @@ sudo chmod +x setup.sh
 ```bash
 ./setup.sh
 ```
+### Make sure Comfort skin choosed on WPS Office Skin Center
