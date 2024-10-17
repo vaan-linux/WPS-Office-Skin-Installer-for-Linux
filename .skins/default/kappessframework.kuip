@@ -1,0 +1,1 @@
+<?xml version="1.0"?><shell><import path="uicontrol.kuip"/><resource mode="mix"><icon type="svg"><path path=":/icons_svg/12x12"/><path path=":/icons_svg/16x16"/><path path=":/icons_svg/24x24"/><path path=":/icons_svg/32x32"/><path path=":/icons_svg/48x48"/><path path=":/icons_svg/64x64"/><path path=":/icons_svg/other"/><path path=":/shared/icons"/></icon></resource></shell>
