@@ -1,6 +1,6 @@
 # WPS Office Skin Installer for Linux
 
-![ss](images/ss.png)
+<img src="images/ss.png" alt="ss" width="300">
 
 This script allows you to install and switch WPS Office skins/themes to several variants. Currently, there are 9 skins/themes available:  
 1) Default  
