@@ -1,6 +1,6 @@
 echo ""
 echo "----------------------------------------------------------------------------"
-echo -e  "+++                            +++
+echo -e "+++                            +++
 ++++++                      ++++++
 +++++++++       +*       +++++++++
 +++++++++    ++++++++    +++++++++
@@ -12,7 +12,7 @@ echo -e  "+++                            +++
     ++++++++++++++++++++++++++    
        ++++++++++++++++++++       
           ++++++++++++++          
-             ++++++++          "                          
+             ++++++++          "
 echo "----------------------------------------------------------------------------"
 echo ""
 echo -e "\e[1mMakesure Comfort skin choosed on WPS Office  Skin and interface settings\e[0m"
@@ -33,10 +33,11 @@ echo -n "Enter Skin number: "
 read skin
 
 echo ""
-echo -e "\e[1mWhat Linux distribution are you using?:\e[0m"
-echo "1). Arch Linux based distributions"
-echo "2). Debian/Ubuntu based distributions"
-echo "3). RHEL/Fedora based distributions"
+echo -e "\e[1mHow did you install WPS office?:\e[0m"
+echo "1). Arch Linux AUR"
+echo "2). Debian/Ubuntu package manager (apt) or .deb package"
+echo "3). RHEL/Fedora package manager (dnf, yum) or .rpm package"
+echo "4). Flatpak"
 echo -n "Enter Skin number: "
 read distro
 
@@ -46,6 +47,8 @@ elif [ "$distro" -eq 2 ]; then
 	wpsskindir="/opt/kingsoft/wps-office/office6/skins//2019dark/"
 elif [ "$distro" -eq 3 ]; then
 	wpsskindir="/opt/kingsoft/wps-office/office6/skins//2019dark/"
+elif [ "$distro" -eq 4 ]; then
+	wpsskindir="/var/lib/flatpak/app/com.wps.Office/current/active/files/extra/wps-office/office6/skins/2019dark/"
 else
 	wpsskindir="/usr/lib/office6/skins/2019dark/"
 fi
@@ -61,11 +64,11 @@ echo ""
 if [ "$skin" -eq 1 ]; then
 	sudo cp -r $DIR/.skins/default/* $wpsskindir
 	echo "Default skin successfully installed"
-	
+
 elif [ "$skin" -eq 2 ]; then
 	sudo cp -r $DIR/.skins/dark/* $wpsskindir
 	echo "Dark skin successfully installed"
-	
+
 elif [ "$skin" -eq 3 ]; then
 	sudo cp -r $DIR/.skins/nord/* $wpsskindir
 	echo "Nord skin successfully installed"
