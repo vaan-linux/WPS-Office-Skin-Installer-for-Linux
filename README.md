@@ -13,7 +13,7 @@ This script allows you to install and switch WPS Office skins/themes to several 
 8) Everforest  
 9) Gruvbox  
 
-Note: This script only works on the International version of WPS Office (v.11).
+Note: This script only works on the International version of WPS Office (v.11). Installing WPS office via Flatpak is recommended for all Linux distributions supporting it, since its latest version is the international version, and as a proprietary app it is better run in a sandboxed environment.
 
 ## Steps
 ### Make sure Git is installed on your system
