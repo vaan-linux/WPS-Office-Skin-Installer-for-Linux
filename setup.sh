@@ -43,9 +43,9 @@ read distro
 if [ "$distro" -eq 1 ]; then
 	wpsskindir="/usr/lib/office6/skins/2019dark/"
 elif [ "$distro" -eq 2 ]; then
-	wpsskindir="/opt/kingsoft/wps-office/office6/skins//2019dark/"
+	wpsskindir="/opt/kingsoft/wps-office/office6/skins/2019dark/"
 elif [ "$distro" -eq 3 ]; then
-	wpsskindir="/opt/kingsoft/wps-office/office6/skins//2019dark/"
+	wpsskindir="/opt/kingsoft/wps-office/office6/skins/2019dark/"
 else
 	wpsskindir="/usr/lib/office6/skins/2019dark/"
 fi
